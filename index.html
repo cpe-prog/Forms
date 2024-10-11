@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+
+		<style>
+			h1,
+			h2 {
+				text-align: center;
+			}
+			#formContainer {
+				text-align: center;
+				margin-bottom: 20px;
+			}
+
+			label {
+				display: block;
+				margin-top: 10px;
+			}
+
+			input,
+			textarea {
+				width: 300px;
+				padding: 8px;
+				margin-top: 5px;
+				border: 1px solid #ccc;
+				border-radius: 4px;
+			}
+
+			table {
+				border-collapse: collapse;
+				margin-bottom: 20px;
+				width: 100%;
+			}
+
+			th,
+			td {
+				border: 1px solid #ddd;
+				padding: 8px;
+				text-align: left;
+			}
+
+			th {
+				background-color: aqua;
+				color: #fff;
+			}
+		</style>
+	</head>
+	<body>
+		<div>
+			<div id="addForm">
+				<form id="loginForm" action="">
+					<div id="formContainer">
+						<label for="nameInput"> FirstName: </label>
+						<input type="text" id="firstName" placeholder="Enter Name..." />
+						<label for="emailInput"> LastName: </label>
+						<input type="text" id="lastName" placeholder="Enter Email..." />
+						<label for="numberInput"> Email: </label>
+						<input
+							type="text"
+							id="email"
+							placeholder="Enter Mobile Details..."
+						/>
+						<label for="address"> Address: </label>
+						<textarea id="address" placeholder="Enter Address..."></textarea>
+						<br />
+						<button id="submit">Add</button>
+					</div>
+				</form>
+			</div>
+			<table id="outputTable">
+				<tr>
+					<th>FirstName</th>
+					<th>LastName</th>
+					<th>Email</th>
+					<th>Address</th>
+					<th>Action</th>
+				</tr>
+			</table>
+		</div>
+		<script src="function.js"></script>
+	</body>
+
+	<script></script>
+</html>
